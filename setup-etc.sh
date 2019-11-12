@@ -3,7 +3,7 @@ export DEBIAN_FRONTEND=noninteractive
 
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get -y --no-install-recommends install tmux default-jdk
+sudo apt-get -y --no-install-recommends install tmux default-jdk-headless
 
 # Cleanup apt
 apt-get -y autoremove
